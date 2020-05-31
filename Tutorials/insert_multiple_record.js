@@ -31,4 +31,4 @@ con.connect(function(err) {
     if (err) throw err;
     console.log("Number of records inserted: " + result.affectedRows);
   });
-});
+})
